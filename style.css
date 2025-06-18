@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #0066cc;
+    border-left: 5px solid #0077ff;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul, li {
+    list-style-type: square;
+    margin-left: 30px;
+    font-size: 16px;
+}
+ul ul {
+    list-style-type: circle;
+    margin-left: 50px;
+}
+img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 2px solid #ccc;
+}
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #0077ff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #005fcc;
+}
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e6f0ff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+}
+.about-me {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-container p {
+    font-size: 16px;
+    color: #444;
+}
